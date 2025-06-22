@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+body.active{
+  background-color: #251819;
+  color: aliceblue;
+}
+.header.active{
+  color: aliceblue;
+}
+.main.active{
+  color: aliceblue;
+}
+.nav.active{
+  color: aliceblue;
+}
+.hero.active{
+  color: aliceblue;
+}
+.extra-nav.active{
+  color: aliceblue;
+}
+.final.active{
+  color: aliceblue;
+}
+.footer.active{
+  color: aliceblue;
+}
+.container{
+    width: 1050px;
+    margin: 0px auto;
+}

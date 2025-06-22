@@ -1,0 +1,114 @@
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.lefts{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    justify-content: space-between;
+    padding: 20px;
+}
+.left-title{
+    width: 149px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5D5656;
+}
+.scrols{
+    background-color: #000000;
+    box-shadow: 1px 1px 40px #000000;
+    border:none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: fixed;
+    top: 520px;
+    left: 1155px;
+}
+.scrols:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.scrols.active:active{
+    background-color: black;
+    color: aliceblue;
+}
+.scrols.active{
+    background-color:aliceblue;
+    color: #000000;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.left2-ul,
+.right-ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 30px;
+    gap: 10px;
+    color:#5D5656;
+}
+.right-ul-li,
+.left2-ul-li{
+    font-weight: 400;
+    font-size: 16px;
+}
+.right2-title,
+.right-title,
+.left2-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #282525;
+}
+.left2-title.active{
+    color: aliceblue;
+}
+.right2-title.active{
+    color: aliceblue;
+}
+.right-title.active{
+    color: aliceblue;
+}
+.form{
+    display: flex;
+    margin-top: 30px; 
+    flex-direction: column;  
+}
+.contt{
+    display: flex;
+}
+.google-play,
+.app-store{
+    background-color: transparent;
+    border: none;
+    margin-top: 5px;
+}
+.footer-img{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.footer-title{
+    font-weight: 400;
+    font-size: 12px;
+    color:#918889;  
+}
+.footered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.footer-title.active{
+    color: aliceblue;
+}

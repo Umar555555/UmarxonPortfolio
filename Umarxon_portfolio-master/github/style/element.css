@@ -1,0 +1,125 @@
+
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+.true{
+  background-image:url(../img/checked.png);
+  background-size: cover;
+  width: 16px;
+  height: 16px;
+}
+.str{
+  background-image:url(../img/aaa.png);
+  background-size:20px 8px;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-top: 7px;
+}
+.see{
+  background-image:url(../img/icons8-eye.svg);
+  background-size: cover;
+  width: 17px;
+  height: 17px;
+}
+.see-not{
+  background-image:url(../img/icons8-invisible.svg);
+  background-size: cover;
+  width: 17px;
+  height: 17px;
+}
+.input{
+  width: 450px;
+  height: 27px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-indent: 3px;
+  border-radius:4px;
+}
+.input:focus{
+  outline: 1px solid rgb(14, 42, 255);
+}
+.war-email{
+  width: 640px;
+  padding: 0px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: red;
+}
+.succes-pas{
+  color: green;
+  border: 1px solid green;
+  padding: 6px 15px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.war{
+  margin-left: -305px;
+}
+.text-2{
+  margin-left: -420px;
+  margin-bottom: 10px;
+  color: green;
+}
+.text-3{
+  margin-left: -420px;
+  margin-bottom: 10px;
+}
+.warning{
+  width: 640px;
+  text-align: left;
+  font-size: 14px;
+  height: 120px;
+  padding: 0px 18px;
+  justify-content: center;
+}
+.items{
+  width: 55px;
+  height:4px;
+  border-radius: 10px;
+  background-color: red;
+  border: none;
+}
+.succes-item{
+  width: 55px;
+  height:4px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+}
+.wrap-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: -420px;
+  margin-top:30px;
+  margin-bottom: -10px;
+}
+.actives{
+  background-color: #ffffffa1;
+  width: 55px;
+  height:4px;
+  border-radius: 10px;
+  border: none;
+}
+.wrap-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: -420px;
+  margin-top:30px;
+  margin-bottom: -10px;
+}
+.warning-us{
+  margin-top: -30px;
+  margin-left: -190px;
+  text-align: left;
+  width: 400px;
+}
+

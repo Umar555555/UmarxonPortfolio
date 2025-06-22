@@ -1,0 +1,249 @@
+.extra{
+    max-width: 2048px;
+    width: 100%;
+    height: 637px;
+    background-color: #0A0C18;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.extra_title{
+    display: flex;
+    gap: 10px;
+    color: white;
+    margin-top: 50px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+    gap: 15px;
+    margin-top: 50px;
+}
+.extra_input{
+    max-width: 1210px;
+    width: 96%;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 7px;
+    outline: none;
+    text-indent: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(47, 47, 47);
+}
+.extra_coment_input{
+    max-width: 1210px;
+    width: 96%;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 7px;
+    outline: none;
+    text-indent: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(47, 47, 47);
+}
+.f_submit{
+    width: 96%;
+    max-width: 1210px;
+    height: 50px;
+    background-color: #FF6B48;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    transition: all ease-in-out 0.3s;
+}
+.f_submit:hover{
+    background-color: #ff2f00;
+}
+.f_submit:active{
+    opacity: 0.5;
+}
+.p{
+    color:#FF6B48;
+}
+.extra_cards{
+    width: 96%;
+    max-width: 1200px;
+    height: 250px;
+    margin-top: 100px;
+    border-radius: 10px;
+    overflow:auto;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    background-image: url(../img/design.avif);
+    background-size:1010px 600px;
+    gap: 20px;
+}
+.extra_card{
+    width: 350px;
+    border-radius: 6px;
+    background-image: url(../img/Premium\ Vector\ _\ Black\ abstract\ background\ with\ gray\ line.jpg);
+    background-size: 300px 230px;
+    height: 230px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+        border: 1px solid #ccc;
+        max-width: 100%; /* Kenglik chegarasi */
+        word-wrap: break-word;
+        padding-top: 10px;
+}
+.sal{
+    display: flex;
+    justify-content: center;
+}
+
+.ppp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    font-size: 16px;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+.comment-item {
+    border-radius: 5px;
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    max-width: 100%; 
+    width: 300px;
+}
+@media(max-width:440px){
+    .extra{
+      max-width: 440px;
+  width: 100%;
+    height: 607px;
+    background-color: #0A0C18;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.extra_title{
+    display: flex;
+    gap: 10px;
+    color: white;
+    margin-top: 50px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+    gap: 10px;
+    margin-top: 50px;
+}
+.extra_input{
+      max-width: 440px;
+  width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 7px;
+    outline: none;
+    text-indent: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(47, 47, 47);
+}
+.extra_coment_input{
+      max-width: 440px;
+  width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 7px;
+    outline: none;
+    text-indent: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(47, 47, 47);
+}
+.f_submit{
+      max-width: 440px;
+  width: 100%;
+    height: 50px;
+    background-color: #FF6B48;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    transition: all ease-in-out 0.3s;
+}
+.f_submit:hover{
+    background-color: #ff2f00;
+}
+.f_submit:active{
+    opacity: 0.5;
+}
+.p{
+    color:#FF6B48;
+}
+.extra_cards{
+    max-width: 440px;
+    width: 96%;
+    height: 250px;
+    margin-top: 100px;
+    border-radius: 15px;
+    overflow:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    background-image: url(../img/design.avif);
+    background-size:1010px 600px;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+.extra_card{
+    width: 365px;
+    border-radius: 6px;
+    background-image: url(../img/Premium\ Vector\ _\ Black\ abstract\ background\ with\ gray\ line.jpg);
+    background-size: 300px 230px;
+    height: 230px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+        border: 1px solid #ccc;
+        max-width: 100%; /* Kenglik chegarasi */
+        word-wrap: break-word;
+        padding-top: 10px;
+}
+.sal{
+    display: flex;
+    justify-content: center;
+}
+
+.ppp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    font-size: 16px;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+.comment-item {
+    border-radius: 5px;
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    max-width: 100%; 
+    width: 300px;
+}
+}

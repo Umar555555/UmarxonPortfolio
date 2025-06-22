@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.footer-link{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 10px;
+
+}

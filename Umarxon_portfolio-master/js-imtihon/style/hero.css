@@ -1,0 +1,42 @@
+.hero-title{
+    width: 235px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.hero-text{
+    width: 372px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5D5656;
+}
+.hero-btn{
+    width: 148px;
+    height: 44px;
+    border-radius: 64px;
+    background-color: #DC3845;
+    border: none;
+    color:aliceblue;
+}
+.hero-btn:hover{
+    background-color: #d62433;
+}
+.hero-right{
+    background-image: url(../img/celebrate\ 1.png);
+    width: 450px;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 190px;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-text.active{
+    color: #C2BDBD;
+}

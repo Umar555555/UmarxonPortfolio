@@ -1,0 +1,209 @@
+.main{
+    background-color: #010312;
+    max-width: 2048px;
+    width: 100%;
+    height: 537px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+.main_wrapper{
+    width: 100%;
+    max-width: 850px;
+    padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 537px;
+}
+.main_right{
+    width: 100%;
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.main_left{
+    width: 320px;
+    height: 320px;
+    background-color: #FF6E45;
+    border-radius: 50%;
+}
+.main_background{
+    width: 310px;
+    height: 310px;
+    margin: 5px auto;
+    background-image: url(../img/logo.png);
+    background-size: 310px 310px;
+    border-radius: 50%;
+}
+.about_modal_btn{
+    font-size: 16px;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1.5px solid #FF6E45;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    transition: all ease-in-out 0.5s;
+}
+.about_modal_btn:hover{
+    border-radius: 5px;
+}
+.main_title{
+    font-weight: 500;
+    margin-top: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+.main_contact{
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px 0px;
+    max-width: 400px;
+    justify-content: space-between;
+    width: 100%;
+    height: 170px;
+    flex-direction: column;
+    background-color: #12121E;
+}
+.main_text2{
+    font-size: 15px;
+    font-weight: 500;
+}
+.main_text{
+    color: #FF6E45;
+}
+.contact_btn{
+    width: 180px;
+    font-size: 17px;
+    font-weight: 600;
+    height: 40px;
+    background-color: #FF6E45;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    transition: all ease-in-out 0.5s;
+}
+.main_contact-text{
+    width: 100%;
+    max-width: 130px;
+    height: 60px;
+}
+.contact_btn:hover{
+    background-color: #ff3700;
+    border-radius: 5px;
+}
+.c-top{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.c-bottom{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+@media(max-width:440px){
+    .main{
+    background-color: #010312;
+    max-width: 440px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.main_wrapper{
+    width: 100%;
+    max-width: 440px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 700px;
+}
+.main_left{
+    width: 250px;
+    height: 250px;
+    background-color: #FF6E45;
+    border-radius: 50%;
+}
+.main_background{
+    width: 240px;
+    height: 240px;
+    margin: 5px auto;
+    background-image: url(../img/logo.png);
+    background-size: 240px 240px;
+    border-radius: 50%;
+}
+.about_modal_btn{
+    font-size: 16px;
+    padding: 8px 35px;
+    border-radius: 20px;
+    border: 1.5px solid #FF6E45;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    transition: all ease-in-out 0.5s;
+}
+.about_modal_btn:hover{
+    border-radius: 5px;
+}
+.main_title{
+    font-weight: 500;
+    margin-top: 20px;
+  max-width: 440px;
+  width: 100%;
+}
+.main_contact{
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+    max-width: 440px;
+    width: 100%;
+    height: 170px;
+    flex-direction: column;
+    background-color: #12121E;
+}
+.main_text2{
+    font-size: 13px;
+    font-weight: 500;
+}
+.main_text{
+    color: #FF6E45;
+}
+.contact_btn{
+    width: 180px;
+    font-size: 17px;
+    font-weight: 600;
+    height: 40px;
+    background-color: #FF6E45;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    transition: all ease-in-out 0.5s;
+}
+.contact_btn:hover{
+    background-color: #ff3700;
+    border-radius: 5px;
+}
+}
+@media(max-width:330px){
+.main{
+    height: 800px;
+}
+}

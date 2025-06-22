@@ -1,0 +1,74 @@
+.main{
+  width: 650px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #0B162B;
+  padding: 30px;
+  color: rgb(155, 155, 155);
+  margin-top: 130px;
+}
+.act-1{
+  height: 180px;
+}
+.act-2{
+  height: 250px;
+}
+.act-3{
+  height: 320px;
+}
+.act-4{
+  height: 410px;
+}
+.main-text{
+  font-size: 15px;
+  width: 190px;
+}
+form{
+  color: aqua;
+}
+.strelka{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+.form{
+  margin-top: 30px;
+}
+.inp-text{
+  color:aliceblue;
+}
+.active{
+  align-items: start;
+}
+.checkbox{
+  margin-top: 5px;
+  width: 17px;
+  height: 17px;
+  background-color:transparent;
+  border: 1.6px solid white;
+  border-radius: 4px;
+}
+.checkbox.activeee{
+  background-image: url(../img/checked.png);
+  background-size:12px 12px;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+.act{
+  padding: 6px 15px;
+  background-color: transparent;
+  border: 1px solid aliceblue;
+  color: aliceblue;
+  border-radius: 5px;
+}
+.acti{
+  padding: 6px 15px;
+  background-color: transparent;
+  border: 1px solid aliceblue;
+  color: aliceblue;
+  border-radius: 5px;
+  margin-left: 130px;
+}
+
+

@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@100;200;300;400;500;600;800;900&display=swap);
+body {
+  font-family: 'Source Code Pro', monospace;
+}
+.container{
+  background-image: url(../img/Skrinshot\ 2024-12-30\ 205004.png);
+  background-repeat: no-repeat;
+  background-size: 1200px 590px;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.con-1{
+  background-image: url(../img/Skrinshot\ 2024-12-30\ 205004.png);
+  background-repeat: no-repeat;
+  background-size:1200px 600px;
+  width: 100%;
+  height: 600px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.con-2{
+  background-image: url(../img/Skrinshot\ 2024-12-30\ 205004.png);
+  background-repeat: no-repeat;
+  background-size:1200px 650px;
+  width: 100%;
+  height: 650px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.con-3{
+  background-image: url(../img/Skrinshot\ 2024-12-30\ 205004.png);
+  background-repeat: no-repeat;
+  background-size: 1200px 1000px;
+  width: 100%;
+  height: 1000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

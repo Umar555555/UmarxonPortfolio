@@ -1,0 +1,112 @@
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.card{
+    width: 230px;
+    height: 280px;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    box-shadow: 1px 1px 50px #00000050;
+    transition: all 0.6s;
+}
+.card.active{
+    background-color: #2F2223;
+}
+.card:hover{
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.top{
+    background-image: url(../img/Ellipse\ 2.png);
+    width: 230px;
+    height: 180px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #282525;
+    margin-top: 20px;
+}
+.card-title.active{
+    color: aliceblue;
+}
+.card-text.active{
+    color:#C2BDBD;
+}
+.card-text{
+    font-weight: 500;
+    font-size: 15px;
+    color: #5D5656;
+}
+.section-title{
+    font-weight: 600;
+    font-size: 24px;
+    color: #282525;
+    margin: 50px 0px;
+}
+.wrap{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 0px;
+}
+.wrapper{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color:#DC3845;
+}
+.wrappers{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color:gray;
+}
+.section-title.active{
+    color: aliceblue;
+}
+.card-like-wrap{
+    width: 40px;
+    height: 40px;
+    background-color: #DC3845;
+    margin-left: 190px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-like{
+    background-image: url(../img/likesss.png);
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+}
+.liked{
+        background-image: url(../img/like-white.png);
+    width: 28px;
+    height: 25px;
+    background-size: 46px 23px ; 
+    background-position-x: -10px
+}
